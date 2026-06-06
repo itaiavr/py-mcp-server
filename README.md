@@ -41,3 +41,10 @@ Tools can encapsulate virtually any logic that you can write in a programming la
 Tools are designed to be model-invoked with client-side approval as needed.
 Each tool is defined with a JSON schema for its input, and annotations can hint at safety properties. 
 Tools are the most powerful and commonly used primitives, enabling LLMs to interact dynamically with external systems
+
+The power of MCP is that you can seamlessly connect servers to clients hosted in various applications 
+like Cursor, Claude Code, Windsurf, LangChain, and any other software that supports MCP clients
+Cursor: 
+is an AI code editor that makes it straightforward to develop, test, and deploy AI-assisted code.
+Cursor is a fork of VS Code, which is arguably the most popular code editor worldwide.
+Cursor hosts an MCP client that allows you to connect to multiple servers.
